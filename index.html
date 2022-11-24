@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="/main.css/game.css">
+</head>
+
+<body onload="onInit(4,2)" onkeyup="">
+    <h1>Mine Sweeper</h1>
+    <button class="restGame" onclick="resetCurrLevel()">😁</button>
+    <h2>Mines: <span id="minesCount">0</span></h2>
+    <!-- <h2 class="timer span">00.00<span>⏱</span></h2>  -->
+    </div>
+    <br>
+    <br>
+    <button class="levelGame" onclick="onInit(4,2)">Begginer (4X4)</button>
+    <button class="levelGame1" onclick="onInit(8,14)">Pro (8X8)</button>
+    <button class="levelGame2" onclick="onInit(12,32)">Legendary (12X12)</button>
+    <br>
+    <div class="box">
+        <table border="3" cellpadding="">
+        <tbody class="board">
+            
+        </tbody>
+
+        </table>
+     
+     
+    </div>
+    <script src="/main.js/game.js"></script>
+</body>
+<footer>Made By: Gal Arditi :)</footer>
+
+</html>
